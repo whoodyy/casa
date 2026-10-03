@@ -1,0 +1,134 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Aseana — One-Bedroom Staycation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header class="topbar" id="top">
+  <div class="logo">Casa Aseana</div>
+  <nav class="nav-links">
+    <a href="#about">About</a><a href="#gallery">Gallery</a><a href="#amenities">Amenities</a>
+    <a href="#location">Location</a><a href="#rates">Rates</a>
+  </nav>
+  <a href="#book" class="cta-small">Book now</a>
+</header>
+ 
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">A one-bedroom retreat</div>
+    <h1>Casa Aseana</h1>
+    <h2>Aseana Business Park, Parañaque</h2>
+    <p>One bedroom, one balcony, one very good sofa. A calm, modern space steps from MOA, IKEA and the airport — made for couples, solo trips and small families.</p>
+    <div class="hero-ctas"><a href="#book" class="btn-primary">Book your stay</a><a href="#gallery" class="btn-ghost">See the unit</a></div>
+  </div>
+</section>
+ 
+<section class="facts">
+  <div><b>1</b><span>Bedroom</span></div>
+  <div><b>1</b><span>Bathroom</span></div>
+  <div><b>4</b><span>Guests max</span></div>
+  <div><b>6F</b><span>Balcony &amp; city view</span></div>
+</section>
+ 
+<section class="about" id="about">
+  <div class="about-text">
+    <div class="eyebrow dark">The space</div>
+    <h2>Everything you need, nothing you don't.</h2>
+    <p>A queen bed with crisp linens, a living area with a sofa bed for extra guests, a fully equipped kitchen, and a private balcony for your morning coffee or sunset drinks over the city lights.</p>
+    <ul class="highlights">
+      <li>🛏 Queen bed + sofa bed</li>
+      <li>🌇 Private balcony with city view</li>
+      <li>🍳 Full kitchen with cookware</li>
+      <li>📶 Fast WiFi &amp; Netflix</li>
+    </ul>
+  </div>
+  <img src="images/cover.svg" alt="Living area" class="about-img">
+</section>
+ 
+<section class="gallery" id="gallery">
+  <div class="eyebrow dark center">Take a look inside</div>
+  <h2 class="center">Gallery</h2>
+  <p class="center hint">Tap any photo to enlarge</p>
+  <div class="gal-grid">
+    <a href="#p-bedroom" class="g wide"><img src="images/bedroom.svg" alt="Bedroom"><span>Bedroom</span></a>
+    <a href="#p-living" class="g"><img src="images/living.svg" alt="Living area"><span>Living area</span></a>
+    <a href="#p-kitchen" class="g"><img src="images/kitchen.svg" alt="Kitchen"><span>Kitchen</span></a>
+    <a href="#p-balcony" class="g"><img src="images/balcony.svg" alt="Balcony"><span>Balcony</span></a>
+    <a href="#p-bathroom" class="g"><img src="images/bathroom.svg" alt="Bathroom"><span>Bathroom</span></a>
+    <a href="#p-view" class="g wide"><img src="images/view.svg" alt="View"><span>The view</span></a>
+  </div>
+</section>
+ 
+<!-- lightboxes (pure CSS, :target) -->
+<a href="#gallery" class="lb" id="p-bedroom"><img src="images/bedroom.svg" alt="Bedroom"></a>
+<a href="#gallery" class="lb" id="p-living"><img src="images/living.svg" alt="Living area"></a>
+<a href="#gallery" class="lb" id="p-kitchen"><img src="images/kitchen.svg" alt="Kitchen"></a>
+<a href="#gallery" class="lb" id="p-balcony"><img src="images/balcony.svg" alt="Balcony"></a>
+<a href="#gallery" class="lb" id="p-bathroom"><img src="images/bathroom.svg" alt="Bathroom"></a>
+<a href="#gallery" class="lb" id="p-view"><img src="images/view.svg" alt="View"></a>
+ 
+<section class="amenities" id="amenities">
+  <div class="eyebrow center">Included in your stay</div>
+  <h2 class="center">Amenities</h2>
+  <div class="am-grid">
+    <div><i>📶</i><h4>Free WiFi</h4><p>Fast enough to work from the balcony.</p></div>
+    <div><i>📺</i><h4>Smart TV + Netflix</h4><p>Log in to your own account.</p></div>
+    <div><i>❄️</i><h4>Air conditioning</h4><p>Cool, quiet and efficient.</p></div>
+    <div><i>🍳</i><h4>Full kitchen</h4><p>Cookware, utensils and fridge.</p></div>
+    <div><i>🧴</i><h4>Toiletries &amp; towels</h4><p>Fresh set for every guest.</p></div>
+    <div><i>🏊</i><h4>Pool access</h4><p>Free for guests (Tue–Sun, 6AM–10PM).</p></div>
+    <div><i>🔒</i><h4>24/7 security</h4><p>Staffed lobby and secure access.</p></div>
+    <div><i>🐾</i><h4>Pet-friendly</h4><p>Let us know before you arrive.</p></div>
+  </div>
+</section>
+ 
+<section class="location" id="location">
+  <div class="loc-wrap">
+    <div>
+      <div class="eyebrow">Find us</div>
+      <h2>Right in the middle of it all</h2>
+      <p class="addr">Aseana Business Park, Bradco Ave, Parañaque, Metro Manila</p>
+      <div class="loc-cols">
+        <div><h4>Walkable to</h4><ul><li>Mall of Asia</li><li>IKEA</li><li>Parqal</li><li>DFA Aseana</li></ul></div>
+        <div><h4>Close to</h4><ul><li>NAIA Airport</li><li>PICC</li><li>Manila Ocean Park</li><li>Solaire &amp; casinos</li></ul></div>
+      </div>
+    </div>
+    <img src="images/view.svg" alt="City view" class="loc-img">
+  </div>
+</section>
+ 
+<section class="rates" id="rates">
+  <div class="eyebrow dark center">Simple pricing</div>
+  <h2 class="center">Rates</h2>
+  <div class="rate-cards">
+    <div class="rc"><h4>Weekdays</h4><div class="amt">₱3,500</div><p>per night · Mon–Thu</p></div>
+    <div class="rc featured"><h4>Weekends &amp; Holidays</h4><div class="amt">₱3,800</div><p>per night · Fri–Sun</p></div>
+    <div class="rc"><h4>Extra guest</h4><div class="amt">₱300</div><p>per pax, per night</p></div>
+  </div>
+  <p class="center small">Check-in 3:00 PM · Check-out 12:00 NN · Up to 4 guests</p>
+</section>
+ 
+<section class="book" id="book">
+  <h2>Ready for your stay?</h2>
+  <p>Send us your dates, number of guests, pets (if any) and special requests — we'll reply with the best rate.</p>
+  <div class="contact-row">
+    <a class="btn-primary" href="tel:+639000000000">📞 0900 000 0000</a>
+    <a class="btn-ghost" href="#">Facebook</a>
+    <a class="btn-ghost" href="#">Instagram</a>
+    <a class="btn-ghost" href="#">Book on Airbnb</a>
+  </div>
+</section>
+ 
+<footer><div>Casa Aseana · Aseana Business Park, Parañaque</div><a href="#top">Back to top ↑</a></footer>
+ 
+</body>
+</html>
+ 
